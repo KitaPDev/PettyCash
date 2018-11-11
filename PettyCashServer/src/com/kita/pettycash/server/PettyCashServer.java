@@ -3,8 +3,6 @@ package com.kita.pettycash.server;
 import com.kita.lib.rpc.server.RPCServer;
 import com.kita.pettycash.server.services.User;
 
-import java.io.*;
-
 public class PettyCashServer {
 
     private static int PORT = 45678;
