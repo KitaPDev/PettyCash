@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" line="41" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d0d9519-6dd8-46ef-8d38-edc1b016b2ff" name="Revert: Revert: kita 04/11/2018 01:40" comment="kita 11/11/2018 17:37">
+      <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/.idea/misc.xml" afterDir="false" />
+    </list>
+    <list id="b522c33c-3a92-4e59-a07e-21bb658ac413" name="Default Changelist" comment="" />
+    <list id="8e4b6c0b-e824-423e-baa5-bcf061aec575" name="Revert &quot;Revert: kita 11/11/2018 10:32&quot;" comment="Revert &quot;Revert: kita 11/11/2018 10:32&quot;&#10;&#10;This reverts commit 559faa3" />
+    <list id="77855a43-cd47-4d31-bd62-406210283dd4" name="Revert: kita 01/11/2018 22:10" comment="Revert: kita 11/11/2018 01:33" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Clients/PettyCashAndroid">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-740504662">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.opened" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.delete.local" value="2" />
+          <entry key="git.branch.delete.remote" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="17149" />
+          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="71" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="71" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="17150" />
+          <entry key="txt" value="123" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/PettyCashServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteReturn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteExecution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="664">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/DatabaseAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Clients/PettyCashAndroid" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="kitalib" />
+        <entry key="$PROJECT_DIR$/Clients/PettyCashAndroid" value="kitalib" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/Clients/PettyCashAndroid/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/Clients/PettyCashAndroid/app/build.gradle" value="3701838252" />
+        <entry key="$PROJECT_DIR$/Clients/PettyCashAndroid/build.gradle" value="643288491" />
+        <entry key="$PROJECT_DIR$/Clients/PettyCashAndroid/gradle.properties" value="3241497683" />
+        <entry key="$PROJECT_DIR$/Clients/PettyCashAndroid/gradle/wrapper/gradle-wrapper.properties" value="1601789844" />
+        <entry key="$PROJECT_DIR$/Clients/PettyCashAndroid/settings.gradle" value="3739342718" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/UserBean.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/serrvices/Greeting.java" />
+        <option value="$PROJECT_DIR$/Library/PettyCash_LIB_ITF/src/com/kita/pettycash/server/interfaces/ITFGreeting.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/lib/Reflection.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/lib/KitaReflection.java" />
+        <option value="$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/BEANRemote.java" />
+        <option value="$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/BEANRemoteExecution.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/lib/RPCServer.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/lib/CustomReflection.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/Server.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kitap/lib/rpc/BEANRemoteExecution.java" />
+        <option value="$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/BEANUser.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/Greeting.java" />
+        <option value="$PROJECT_DIR$/Clients/PettyCashConsole/src/com/kitap/client/console/ConsoleClient.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/DatabaseAdapter.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/User.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteExecution.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServerService.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteReturn.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServer.java" />
+        <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/PettyCashServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2173" />
+    <option name="y" value="365" />
+    <option name="width" value="1336" />
+    <option name="height" value="914" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitalib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitalib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitalib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitalib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCash_LIB_Bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCash_LIB_Bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCash_LIB_Bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCash_LIB_ITF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCash_LIB_ITF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCash_LIB_ITF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pettycash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCash_LIB_ITF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pettycash" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCashServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCashServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCashServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PettyCash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PettyCashServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541934816867" />
+    <property name="device.picker.selection" value="Pixel_XL_API_28_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Clients/Library/PettyCash_CLIB_Utils" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kita.lib.rpc" />
+      <recent name="com.kita.lib.rpc.server" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PettyCashServer">
+    <configuration name="ConsoleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kitap.client.console.ConsoleClient" />
+      <module name="PettyCashConsole" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kitap.client.console.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PettyCashServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kita.pettycash.server.PettyCashServer" />
+      <module name="PettyCashServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kita.pettycash.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConsoleClient" />
+      <item itemvalue="Application.PettyCashServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PettyCashServer" />
+        <item itemvalue="Application.ConsoleClient" />
+        <item itemvalue="Application.PettyCashServer" />
+        <item itemvalue="Application.ConsoleClient" />
+        <item itemvalue="Application.PettyCashServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b522c33c-3a92-4e59-a07e-21bb658ac413" name="Default Changelist" comment="" />
+      <changelist id="77855a43-cd47-4d31-bd62-406210283dd4" name="Revert: kita 01/11/2018 22:10" comment="" />
+      <changelist id="6d0d9519-6dd8-46ef-8d38-edc1b016b2ff" name="Revert: Revert: kita 04/11/2018 01:40" comment="" />
+      <created>1540048613149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540048613149</updated>
+      <workItem from="1540048616889" duration="4432000" />
+      <workItem from="1540094026818" duration="12657000" />
+      <workItem from="1540173756850" duration="534000" />
+      <workItem from="1540213016958" duration="14918000" />
+      <workItem from="1540285685330" duration="16070000" />
+      <workItem from="1540346945923" duration="142000" />
+      <workItem from="1540352033301" duration="735000" />
+      <workItem from="1540360863815" duration="3119000" />
+      <workItem from="1540390297765" duration="3760000" />
+      <workItem from="1540395688895" duration="226000" />
+      <workItem from="1540396004593" duration="2661000" />
+      <workItem from="1540432539668" duration="1499000" />
+      <workItem from="1540633014040" duration="1089000" />
+      <workItem from="1540740324099" duration="3472000" />
+      <workItem from="1540778637510" duration="253000" />
+      <workItem from="1540822522657" duration="982000" />
+      <workItem from="1540823934553" duration="576000" />
+      <workItem from="1540824590557" duration="927000" />
+      <workItem from="1540825573222" duration="2607000" />
+      <workItem from="1540872423400" duration="17380000" />
+      <workItem from="1540951386110" duration="338000" />
+      <workItem from="1540984661648" duration="9745000" />
+      <workItem from="1541038856045" duration="697000" />
+      <workItem from="1541039702633" duration="58000" />
+      <workItem from="1541040701691" duration="549000" />
+      <workItem from="1541042742455" duration="611000" />
+      <workItem from="1541051930326" duration="7168000" />
+      <workItem from="1541062415438" duration="225000" />
+      <workItem from="1541083162432" duration="2599000" />
+      <workItem from="1541085895677" duration="3976000" />
+      <workItem from="1541165034291" duration="16442000" />
+      <workItem from="1541299608333" duration="519000" />
+      <workItem from="1541425497493" duration="3537000" />
+      <workItem from="1541474973414" duration="2006000" />
+      <workItem from="1541494595040" duration="6437000" />
+      <workItem from="1541646414920" duration="181000" />
+      <workItem from="1541779886130" duration="625000" />
+      <workItem from="1541824780023" duration="11099000" />
+      <workItem from="1541906502556" duration="5280000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1541056913863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541056913863</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1541057091335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541057091335</updated>
+    </task>
+    <task id="LOCAL-00003" summary="kita 01/11/2018 15:53">
+      <created>1541062452294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541062452294</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kita 01/11/2018 22:01">
+      <created>1541084495610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541084495610</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kita 01/11/2018 22:06">
+      <created>1541084808511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541084808511</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kita 01/11/2018 22:10">
+      <created>1541085042944</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541085042944</updated>
+    </task>
+    <task id="LOCAL-00007" summary="kita 01/11/2018 22:26">
+      <created>1541086020184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541086020184</updated>
+    </task>
+    <task id="LOCAL-00008" summary="kita 01/11/2018 22:29">
+      <created>1541086188364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541086188364</updated>
+    </task>
+    <task id="LOCAL-00009" summary="kita 04/11/2018 01:12">
+      <created>1541268813336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541268813336</updated>
+    </task>
+    <task id="LOCAL-00010" summary="kita 04/11/2018 01:25">
+      <created>1541269555470</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541269555470</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Revert &quot;kita 04/11/2018 01:25&quot;&#10;&#10;This reverts commit c2ff9d7">
+      <created>1541269753544</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541269753544</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Revert: kita 04/11/2018 01:40">
+      <created>1541270426874</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541270426874</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Revert: kita 04/11/2018 01:44">
+      <created>1541270681234</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541270681234</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Revert: kita 04/11/2018 01:44">
+      <created>1541270719954</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541270719954</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Revert: kita 06/11/2018 12:03">
+      <created>1541480631795</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1541480631795</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Revert: kita 06/11/2018 16:05">
+      <created>1541495140423</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1541495140423</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Revert &quot;Revert: kita 04/11/2018 01:40&quot;&#10;&#10;This reverts commit 03b0bbd">
+      <created>1541495169151</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1541495169151</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Revert: kita 06/11/2018 16:50">
+      <created>1541497860848</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1541497860848</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Revert: kita 06/11/2018 23:09">
+      <created>1541520602650</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1541520602650</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Revert: kita 11/11/2018 01:33">
+      <created>1541874803904</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1541874803904</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Revert: kita 11/11/2018 10:32">
+      <created>1541907196315</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1541907196315</updated>
+    </task>
+    <task id="LOCAL-00022" summary="kita 11/11/2018 10:41">
+      <created>1541907722240</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1541907722240</updated>
+    </task>
+    <task id="LOCAL-00023" summary="kita 11/11/2018 17:37">
+      <created>1541932680100</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541932680100</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="160131000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2173" y="365" width="1336" height="914" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19278997" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
+      <window_info id="Captures" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49701494" weight="0.34871796" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292011" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4960815" weight="0.36666667" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917705" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50391847" side_tool="true" weight="0.36666667" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32564104" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49946696" weight="0.26733923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3314121" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="9" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1469534" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
+      <window_info id="Captures" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4189526" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928476" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917705" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32786885" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49946696" weight="0.26733923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3314121" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="9" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../java_lib/kitalib" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="kita 01/11/2018 15:53" />
+    <MESSAGE value="kita 01/11/2018 22:01" />
+    <MESSAGE value="kita 01/11/2018 22:06" />
+    <MESSAGE value="kita 01/11/2018 22:10" />
+    <MESSAGE value="kita 01/11/2018 22:26" />
+    <MESSAGE value="kita 01/11/2018 22:29" />
+    <MESSAGE value="kita 04/11/2018 01:12" />
+    <MESSAGE value="kita 04/11/2018 01:25" />
+    <MESSAGE value="Revert &quot;kita 04/11/2018 01:25&quot;&#10;&#10;This reverts commit c2ff9d7" />
+    <MESSAGE value="Revert: kita 04/11/2018 01:40" />
+    <MESSAGE value="Revert: kita 04/11/2018 01:44" />
+    <MESSAGE value="Revert: kita 06/11/2018 12:03" />
+    <MESSAGE value="Revert: kita 06/11/2018 16:05" />
+    <MESSAGE value="Revert &quot;Revert: kita 04/11/2018 01:40&quot;&#10;&#10;This reverts commit 03b0bbd" />
+    <MESSAGE value="Revert: kita 06/11/2018 16:50" />
+    <MESSAGE value="Revert: kita 06/11/2018 23:09" />
+    <MESSAGE value="Revert: kita 11/11/2018 01:33" />
+    <MESSAGE value="Revert: kita 11/11/2018 10:32" />
+    <MESSAGE value="kita 11/11/2018 10:41" />
+    <MESSAGE value="kita 11/11/2018 17:37" />
+    <option name="LAST_COMMIT_MESSAGE" value="kita 11/11/2018 17:37" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>method.getDeclaringClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p_classHandler.getCanonicalName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p_classHandler.getSimpleName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Executable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="349" column="23" selection-start-line="349" selection-start-column="23" selection-end-line="349" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="2124" column="18" selection-start-line="2124" selection-start-column="18" selection-end-line="2124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PettyCashAndroidClient/src/main/java/com/kitap/pettycash/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/PettyCashAndroidClient/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/pettycash/src/main/java/com/kita/android/pettycash/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/pettycash/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/androidclient/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/androidclient/src/main/java/com/kita/pettycash/androidclient/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/Library/PettyCash_LIB_ITF/src/com/kita/pettycash/server/interfaces/ITFGreeting.java" />
+    <entry file="file://$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/Clients/PettyCashConsole/PettyCashConsole.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/MainActivity.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/io/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="459" column="11" selection-start-line="459" selection-start-column="11" selection-end-line="459" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clients/PettyCashConsole/src/com/kitap/client/console/ConsoleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/client/AsyncExecuteMethod.java" />
+    <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/Greeting.java" />
+    <entry file="file://$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/BEANUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PettyCash_LIB_ITF/src/com/kita/pettycash/client/interfaces/AsyncResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/DatabaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/BEANRemoteReturrn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/PettyCashServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PettyCashConsole</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 28 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>postgresql-42.2.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
