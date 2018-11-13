@@ -47,7 +47,7 @@ public class User {
         DatabaseAdapter databaseAdapter = new DatabaseAdapter();
 
         Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
-        String getSql = "SELECT username, password FROM users;";
+        String getSql = "SELECT username, password FROM user_tbl;";
         ResultSet rs = databaseAdapter.getResultSet(conn, getSql);
 
         return rs;
@@ -62,7 +62,7 @@ public class User {
 
             stmt = conn.createStatement();
 
-            String insertSql = "INSERT INTO users (username, password) VALUES (" + p_strUsername + ", " + p_strPassword + ");";
+            String insertSql = "INSERT INTO user_tbl (username, password) VALUES (\'" + p_strUsername + "\', \'" + p_strPassword + "\');";
 
             stmt.executeUpdate(insertSql);
 
@@ -75,7 +75,7 @@ public class User {
     public void ChangePassword(String p_strUsername, String p_strPassword) {
         DatabaseAdapter databaseAdapter = new DatabaseAdapter();
 
-        String insertSql = "UPDATE users SET password = \'" + p_strPassword + "\' WHERE username = \'" + p_strUsername + "\';";
+        String insertSql = "UPDATE user_tbl SET password = \'" + p_strPassword + "\' WHERE username = \'" + p_strUsername + "\';";
 
         Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
 
