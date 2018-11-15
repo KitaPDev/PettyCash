@@ -1,5 +1,7 @@
 package com.kitap.client.console;
 
+import com.kita.lib.rpc.BEANRemoteExecution;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
