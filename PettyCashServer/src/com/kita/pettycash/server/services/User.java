@@ -23,6 +23,7 @@ public class User {
                 break;
             }
         }
+        rs.close();
 
         return isValidUser;
     }
@@ -39,6 +40,7 @@ public class User {
                 break;
             }
         }
+        rs.close();
 
         return isExistingUser;
     }
@@ -48,9 +50,8 @@ public class User {
 
         Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
         String getSql = "SELECT username, password FROM user_tbl;";
-        ResultSet rs = databaseAdapter.getResultSet(conn, getSql);
 
-        return rs;
+        return databaseAdapter.getResultSet(conn, getSql);
     }
 
     public void CreateUser(String p_strUsername, String p_strPassword) {
@@ -66,13 +67,15 @@ public class User {
 
             stmt.executeUpdate(insertSql);
 
+            conn.close();
+
         } catch(Exception e) {
             System.out.println(e);
             e.printStackTrace();
         }
     }
 
-    public void ChangePassword(String p_strUsername, String p_strPassword) {
+    public void ChangePassword(String p_strUsername, String p_strPassword) throws SQLException {
         DatabaseAdapter databaseAdapter = new DatabaseAdapter();
 
         String insertSql = "UPDATE user_tbl SET password = \'" + p_strPassword + "\' WHERE username = \'" + p_strUsername + "\';";
@@ -80,5 +83,7 @@ public class User {
         Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
 
         databaseAdapter.update(conn, insertSql);
+
+        conn.close();
     }
 }
