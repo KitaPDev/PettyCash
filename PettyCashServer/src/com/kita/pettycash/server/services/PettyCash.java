@@ -85,14 +85,14 @@ public class PettyCash {
 
                 String sqlGetPayeeUsername = "SELECT Username FROM User_tbl WHERE UserID = " + payeeUserID + ";";
                 resultSet = databaseAdapter.getResultSet(conn, sqlGetPayeeUsername);
-                strPayeeUsername = rs.getString("Username");
+                strPayeeUsername = resultSet.getString("Username");
 
             } else if(payeeUserID == userID) {
                 strPayeeUsername = strUsername;
 
                 String sqlGetPayerUsername = "SELECT Username FROM User_tbl WHERE UserID = " + payerUserID + ";";
                 resultSet = databaseAdapter.getResultSet(conn, sqlGetPayerUsername);
-                strPayerUsername = rs.getString("Username");
+                strPayerUsername = resultSet.getString("Username");
 
             }
 
