@@ -5,9 +5,6 @@ import com.kitap.lib.bean.BEANPettyCashTransaction;
 
 import java.math.BigDecimal;
 import java.sql.*;
-import java.text.Bidi;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,13 +32,15 @@ public class PettyCash {
         int payeeUserID;
 
         ResultSet rs = databaseAdapter.getResultSet(conn, sqlGetPayerUserID);
+        rs.next();
         payerUserID = rs.getInt("UserID");
 
         rs = databaseAdapter.getResultSet(conn, sqlGetPayeeUserID);
+        rs.next();
         payeeUserID = rs.getInt("UserID");
 
-        String sqlNewTransaction = "INSERT INTO PettyCash_tbl (Date_Posting, Amount, UserID_Payer, UserID_Payee, Note) VALUES (" +
-                datePosting + ", " + bdAmount + ", " + payerUserID + ", " + payeeUserID + strNote + ");";
+        String sqlNewTransaction = "INSERT INTO PettyCash_tbl (Date_Posting, Amount, UserID_Payer, UserID_Payee, Note) VALUES (\'" +
+                datePosting + "\', " + bdAmount + ", " + payerUserID + ", " + payeeUserID + ",\'" + strNote + "\');";
 
         databaseAdapter.update(conn, sqlNewTransaction);
 
@@ -55,11 +54,12 @@ public class PettyCash {
 
         Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
 
-        String sqlGetPayerUserID = "SELECT UserID FROM User_tbl WHERE username = " + "\'" + strUsername + "\'";
+        String sqlGetPayerUserID = "SELECT UserID FROM User_tbl WHERE Username = " + "\'" + strUsername + "\'";
 
         int userID;
 
         ResultSet rs = databaseAdapter.getResultSet(conn, sqlGetPayerUserID);
+        rs.next();
         userID = rs.getInt("UserID");
 
         String sqlGetPettyCashTransactions = "SELECT * FROM PettyCash_tbl WHERE UserID_Payer = " + userID +
@@ -85,14 +85,14 @@ public class PettyCash {
 
                 String sqlGetPayeeUsername = "SELECT Username FROM User_tbl WHERE UserID = " + payeeUserID + ";";
                 resultSet = databaseAdapter.getResultSet(conn, sqlGetPayeeUsername);
-                strPayeeUsername = resultSet.getString("Username");
+                if(resultSet.next()) strPayeeUsername = resultSet.getString("Username");
 
             } else if(payeeUserID == userID) {
                 strPayeeUsername = strUsername;
 
                 String sqlGetPayerUsername = "SELECT Username FROM User_tbl WHERE UserID = " + payerUserID + ";";
                 resultSet = databaseAdapter.getResultSet(conn, sqlGetPayerUsername);
-                strPayerUsername = resultSet.getString("Username");
+                if(resultSet.next()) strPayerUsername = resultSet.getString("Username");
 
             }
 
@@ -109,12 +109,16 @@ public class PettyCash {
                     + ";";
 
             resultSet = databaseAdapter.getResultSet(conn, sqlGetReturnUsername);
-            strReturnUsername = resultSet.getString("Username");
+            if(resultSet.next()) strReturnUsername = resultSet.getString("Username");
+            if(strReturnUsername == null) strReturnUsername = "";
 
             resultSet = databaseAdapter.getResultSet(conn, sqlGetReturnReceivedUsername);
-            strReturnReceivedUsername = resultSet.getString("Username");
+            if(resultSet.next()) strReturnReceivedUsername = resultSet.getString("Username");
+            if(strReturnReceivedUsername == null) strReturnReceivedUsername = "";
 
-            String strNote = rs.getString("Note");
+            String strNote = null;
+            if(rs.next()) strNote = rs.getString("Note");
+            if(strNote == null) strNote = "";
 
             beanPettyCashTransaction.setPettyCashID(pettyCashID);
             beanPettyCashTransaction.setDatePosting(datePosting);
