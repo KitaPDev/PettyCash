@@ -117,7 +117,7 @@ public class PettyCash {
             if(strReturnReceivedUsername == null) strReturnReceivedUsername = "";
 
             String strNote = null;
-            if(rs.next()) strNote = rs.getString("Note");
+            if(resultSet.next()) strNote = resultSet.getString("Note");
             if(strNote == null) strNote = "";
 
             beanPettyCashTransaction.setPettyCashID(pettyCashID);

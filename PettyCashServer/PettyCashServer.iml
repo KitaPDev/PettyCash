@@ -12,5 +12,6 @@
     <orderEntry type="module" module-name="PettyCash_LIB_ITF" />
     <orderEntry type="library" name="src" level="project" />
     <orderEntry type="library" name="postgresql-42.2.5" level="project" />
+    <orderEntry type="module" module-name="PettyCash_LIB_Bean" />
   </component>
 </module>
