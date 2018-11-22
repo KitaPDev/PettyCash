@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" line="41" />
+    <bookmark url="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" line="40" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d0d9519-6dd8-46ef-8d38-edc1b016b2ff" name="Revert: Revert: kita 04/11/2018 01:40" comment="kita 18/11/2018 22:09">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java_lib/kita_androidlib/src/com/kita/androidlib/client/AsyncRetrieveList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java_lib/kita_androidlib/src/com/kita/androidlib/client/AsyncRetrieveObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java_lib/kita_androidlib/src/com/kita/androidlib/client/AsyncUserExists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/.idea/assetWizardSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/AsyncRetrieveData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/ChangePasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/ChangePasswordActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/HomeActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/NewPettyCashTransactionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/NewPettyCashTransactionActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/java/com/kita/pettycash/SignUpActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Clients/PettyCashAndroid/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PettyCash_LIB_ITF/src/com/kita/pettycash/client/interfaces/AsyncResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PettyCash_LIB_ITF/src/com/kita/pettycash/client/interfaces/AsyncResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PettyCash.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PettyCash.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PettyCashServer/PettyCashServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PettyCashServer/PettyCashServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCash.java" beforeDir="false" afterPath="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PettyCashServer/com/kita/pettycash/server/PettyCashServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PettyCashServer/com/kita/pettycash/server/PettyCashServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PettyCashServer/com/kita/pettycash/server/services/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PettyCashServer/com/kita/pettycash/server/services/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kitalib/com/kita/lib/rpc/server/CustomReflection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kitalib/com/kita/lib/rpc/server/CustomReflection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_lib/kita_androidlib/src/com/kita/androidlib/client/AsyncExecuteMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_lib/kita_androidlib/src/com/kita/androidlib/client/AsyncExecuteMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" afterDir="false" />
     </list>
     <list id="b522c33c-3a92-4e59-a07e-21bb658ac413" name="Default Changelist" comment="" />
     <list id="8e4b6c0b-e824-423e-baa5-bcf061aec575" name="Revert &quot;Revert: kita 11/11/2018 10:32&quot;" comment="Revert &quot;Revert: kita 11/11/2018 10:32&quot;&#10;&#10;This reverts commit 559faa3" />
@@ -139,19 +143,31 @@
     <session id="-1170081029">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/PettyCashServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="442">
               <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,11 +176,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="272">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,40 +191,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="408">
+              <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteReturn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteExecution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1409#1410#0" expanded="true" />
-                <element signature="e#1547#1548#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,7 +203,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
+            <state relative-caret-position="1149">
               <caret line="136" selection-start-line="136" selection-end-line="136" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -272,7 +258,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../java_lib" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="kitalib" />
@@ -315,13 +301,13 @@
         <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServer.java" />
         <option value="$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/BEANUser.java" />
         <option value="$PROJECT_DIR$/Clients/PettyCashConsole/src/com/kitap/client/console/ConsoleClient.java" />
-        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" />
         <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/DatabaseAdapter.java" />
         <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/User.java" />
         <option value="$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/BEANPettyCashUsage.java" />
         <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCashUsage.java" />
         <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/PettyCashServer.java" />
         <option value="$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCash.java" />
+        <option value="$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java" />
       </list>
     </option>
   </component>
@@ -332,8 +318,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1946" />
-    <option name="height" value="1106" />
+    <option name="x" value="21" />
+    <option name="y" value="27" />
+    <option name="width" value="1734" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -444,14 +432,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542554004945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542862744975" />
     <property name="device.picker.selection" value="Pixel_XL_API_28_2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Clients/Library/PettyCash_CLIB_Utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -459,7 +447,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -581,6 +569,9 @@
       <workItem from="1542593121268" duration="630000" />
       <workItem from="1542626745363" duration="16049000" />
       <workItem from="1542736268232" duration="527000" />
+      <workItem from="1542782430512" duration="231000" />
+      <workItem from="1542851907865" duration="205000" />
+      <workItem from="1542852149788" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1541056913863</created>
@@ -782,7 +773,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217534000" />
+    <option name="totallyTimeSpent" value="220990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,10 +785,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1297" height="737" extended-state="0" />
+    <frame x="17" y="22" width="1387" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25545675" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30293897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -809,14 +800,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49701494" weight="0.34602648" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49701494" visible="true" weight="0.3457189" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292011" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49529782" weight="0.3663133" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917705" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5047022" side_tool="true" weight="0.36666667" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5047022" side_tool="true" weight="0.3656958" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32564104" />
       <window_info anchor="bottom" id="Android Profiler" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="13" />
@@ -1098,49 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteReturn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteExecution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCashUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Library/PettyCash_LIB_Bean/src/com/kitap/lib/bean/BEANPettyCashUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -1162,20 +1110,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCash.java">
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="595">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/BEANRemoteReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServerService.java">
+    <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="1149">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1184,8 +1148,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/PettyCashServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="442">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PettyCashServer/src/com/kita/pettycash/server/services/PettyCashUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/CustomReflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../java_lib/kitalib/src/com/kita/lib/rpc/server/RPCServerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
