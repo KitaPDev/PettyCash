@@ -1,0 +1,2 @@
+﻿ALTER TABLE PettyCash_tbl
+ADD Note VARCHAR(1024) NOT NULL;
