@@ -116,9 +116,8 @@ public class PettyCash {
             if(resultSet.next()) strReturnReceivedUsername = resultSet.getString("Username");
             if(strReturnReceivedUsername == null) strReturnReceivedUsername = "";
 
-            String strNote = null;
-            if(resultSet.next()) strNote = resultSet.getString("Note");
-            if(strNote == null) strNote = "";
+            String strNote;
+            strNote = rs.getString("Note");
 
             beanPettyCashTransaction.setPettyCashID(pettyCashID);
             beanPettyCashTransaction.setDatePosting(datePosting);
@@ -135,6 +134,68 @@ public class PettyCash {
         }
 
         return lsBEANPettyCashTransaction;
+    }
+
+    public void deletePettyCashTransaction(BEANPettyCashTransaction p_BEANPettyCashTransaction) throws SQLException {
+        DatabaseAdapter databaseAdapter = new DatabaseAdapter();
+
+        Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
+
+        String strPayerUsername = p_BEANPettyCashTransaction.getUsernamePayer();
+        String strPayeeUsername = p_BEANPettyCashTransaction.getUsernamePayee();
+        Date datePosting = p_BEANPettyCashTransaction.getDatePosting();
+        BigDecimal bdAmount = p_BEANPettyCashTransaction.getAmount();
+        BigDecimal bdAmountReturn = p_BEANPettyCashTransaction.getAmountReturn();
+        Timestamp stReturn = p_BEANPettyCashTransaction.getTimestampReturn();
+        String strReturnUsername = p_BEANPettyCashTransaction.getUsernameReturn();
+        String strReturnReceivedUsername = p_BEANPettyCashTransaction.getUsernameReturnReceived();
+        String strNote = p_BEANPettyCashTransaction.getNote();
+
+        int payerUserID;
+        int payeeUserID;
+
+
+        String sqlGetPayerUserID = "SELECT UserID FROM User_tbl WHERE Username = " + "\'" + strPayerUsername + "\'";
+        String sqlGetPayeeUserID = "SELECT UserID FROM User_tbl WHERE Username = " + "\'" + strPayeeUsername + "\'";
+
+        ResultSet rs = databaseAdapter.getResultSet(conn, sqlGetPayerUserID);
+        rs.next();
+        payerUserID = rs.getInt("UserID");
+        rs = databaseAdapter.getResultSet(conn, sqlGetPayeeUserID);
+        rs.next();
+        payeeUserID = rs.getInt("UserID");
+
+        if(stReturn != null) {
+            int returnUserID;
+            int returnReceivedUserID;
+
+            String sqlGetReturnUserID = "SELECT UserID FROM User_tbl WHERE Username = " + "\'" + strReturnUsername + "\'";
+            String sqlGetReturnReceivedUserID = "SELECT UserID FROM User_tbl WHERE Username = " + "\'" + strReturnReceivedUsername + "\'";
+
+            rs = databaseAdapter.getResultSet(conn, sqlGetReturnUserID);
+            rs.next();
+            returnUserID = rs.getInt("UserID");
+            rs = databaseAdapter.getResultSet(conn, sqlGetReturnReceivedUserID);
+            rs.next();
+            returnReceivedUserID = rs.getInt("UserID");
+
+            String sqlDeletePettyCashTransaction = "DELETE FROM PettyCash_tbl WHERE Date_Posting = \'" + datePosting +
+                    "\' AND Amount = " + bdAmount + " AND UserID_Payer = " + payerUserID + " AND UserID_Payee = " +
+                    payeeUserID + " AND Amount_Return = " + bdAmountReturn + " AND st_Return = \'" + stReturn +
+                    "\' AND UserID_Return = " + returnUserID + " AND UserID_ReturnReceived = " + returnReceivedUserID +
+                    " AND Note = \'" + strNote + "\';";
+
+            databaseAdapter.update(conn, sqlDeletePettyCashTransaction);
+
+        } else {
+            String sqlDeletePettyCashTransaction = "DELETE FROM PettyCash_tbl WHERE Date_Posting = \'" + datePosting +
+                    "\' AND Amount = " + bdAmount + " AND UserID_Payer = " + payerUserID + " AND UserID_Payee = " +
+                    payeeUserID + " AND Amount_Return = " + bdAmountReturn + " AND Note = \'" + strNote + "\';";
+
+            databaseAdapter.update(conn, sqlDeletePettyCashTransaction);
+
+        }
+
     }
 
 }
