@@ -15,9 +15,11 @@ public class PettyCashServer {
             RPCServer.registerHandler(User.class);
             RPCServer.registerHandler(PettyCash.class);
             RPCServer.registerHandler(PettyCashUsage.class);
+            System.out.println("Handlers registered.");
 
             RPCServer server = new RPCServer();
 
+            System.out.println("Starting PettyCashServer");
             server.startServer(PORT);
 
         } catch(Exception e) {

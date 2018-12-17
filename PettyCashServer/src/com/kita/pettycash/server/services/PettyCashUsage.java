@@ -30,6 +30,7 @@ public class PettyCashUsage {
         databaseAdapter.update(conn, sqlNewUsage);
 
         conn.close();
+        System.out.println("New Usage created for PettyCashID = " + pettyCashID);
     }
 
     public List<BEANPettyCashUsage> getPettyCashUsages(String p_strPettyCashTransactionID) throws SQLException {
@@ -62,6 +63,7 @@ public class PettyCashUsage {
             lsBEANPettyCashUsage.add(beanPettyCashUsage);
         }
 
+        System.out.println("Retrieved PettyCashUsage for PettyCashID = " + pettyCashTransactionID);
         return lsBEANPettyCashUsage;
     }
 
@@ -75,6 +77,7 @@ public class PettyCashUsage {
         String sqlDeletePettyCashUsage = "DELETE FROM PettyCashUsage_tbl WHERE PettyCashID = " + PettyCashUsageID + ";";
 
         databaseAdapter.update(conn, sqlDeletePettyCashUsage);
+        System.out.println("PettyCashUsage deleted. PettyCashUsageID = " + PettyCashUsageID);
     }
 
     public void storeImage() {

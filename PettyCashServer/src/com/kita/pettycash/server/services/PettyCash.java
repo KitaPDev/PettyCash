@@ -46,6 +46,7 @@ public class PettyCash {
         databaseAdapter.update(conn, sqlNewTransaction);
 
         conn.close();
+        System.out.println("New transaction created.");
     }
 
     public List<BEANPettyCashTransaction> getPettyCashTransactions(String strUsername) throws SQLException {
@@ -134,6 +135,7 @@ public class PettyCash {
             lsBEANPettyCashTransaction.add(beanPettyCashTransaction);
         }
 
+        System.out.println("Retrieved PettyCash transactions");
         return lsBEANPettyCashTransaction;
     }
 
@@ -148,6 +150,7 @@ public class PettyCash {
         databaseAdapter.update(conn, sqlDeletePettyCashUsages);
         String sqlDeletePettyCashTransaction = "DELETE FROM PettyCash_tbl WHERE PettyCashID = " + pettyCashID;
         databaseAdapter.update(conn, sqlDeletePettyCashTransaction);
+        System.out.println("Transaction deleted. PettyCashID = " + pettyCashID);
     }
 
     public void setUserReturn(BEANPettyCashTransaction p_BEANPettyCashTransaction) throws SQLException {
@@ -168,6 +171,7 @@ public class PettyCash {
                 + pettyCashID + ";";
 
         databaseAdapter.update(conn, sqlSetUserReturn);
+        System.out.println("User Return set. Username = " + p_BEANPettyCashTransaction.getUsernameReturn());
     }
 
     public void setUserReturnReceived(BEANPettyCashTransaction p_BEANPettyCashTransaction) throws SQLException {
@@ -188,6 +192,7 @@ public class PettyCash {
                 + pettyCashID + ";";
 
         databaseAdapter.update(conn, sqlSetUserReturnReceived);
+        System.out.println("User Return Received set. Username = " + p_BEANPettyCashTransaction.getUsernameReturnReceived());
     }
 
 }
