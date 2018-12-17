@@ -12,18 +12,16 @@ public class BEANPettyCashUsage implements Externalizable {
     private int m_pettyCashUsageID;
     private int m_pettyCashID;
     private Timestamp m_dtUsage;
-    private String m_strUsage;
     private BigDecimal m_usageAmount;
-    private String m_strNote;
+    private String m_strUsage;
 
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
         out.writeInt(m_pettyCashUsageID);
         out.writeInt(m_pettyCashID);
         out.writeObject(m_dtUsage);
-        out.writeUTF(m_strUsage);
         out.writeObject(m_usageAmount);
-        out.writeUTF(m_strNote);
+        out.writeUTF(m_strUsage);
     }
 
     @Override
@@ -31,9 +29,8 @@ public class BEANPettyCashUsage implements Externalizable {
         m_pettyCashUsageID = in.readInt();
         m_pettyCashID = in.readInt();
         m_dtUsage = (Timestamp) in.readObject();
-        m_strUsage = in.readUTF();
         m_usageAmount = (BigDecimal) in.readObject();
-        m_strNote = in.readUTF();
+        m_strUsage = in.readUTF();
     }
 
     public int getPettyCashUsageID() { return m_pettyCashUsageID; }
@@ -51,13 +48,13 @@ public class BEANPettyCashUsage implements Externalizable {
         m_dtUsage = p_dtUsage;
     }
 
-    public String getUsage() { return m_strUsage; }
-    public void setUsage(String p_strUsage) {
-        m_strUsage = p_strUsage;
-    }
-
     public BigDecimal getUsageAmount() { return m_usageAmount; }
     public void setUsageAmount(BigDecimal p_usageAmount) {
         m_usageAmount = p_usageAmount;
+    }
+
+    public String getUsage() { return m_strUsage; }
+    public void setUsage(String p_strUsage) {
+        m_strUsage = p_strUsage;
     }
 }

@@ -21,8 +21,6 @@ public class BEANPettyCashTransaction implements Externalizable {
     private String m_strUsernameReturnReceived;
     private String m_strNote;
 
-    private boolean m_bIsReturned;
-
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
         out.writeInt(m_pettyCashID);
@@ -35,8 +33,6 @@ public class BEANPettyCashTransaction implements Externalizable {
         out.writeUTF(m_strUsernameReturn);
         out.writeUTF(m_strUsernameReturnReceived);
         out.writeUTF(m_strNote);
-
-        out.writeBoolean(m_bIsReturned);
     }
 
     @Override
@@ -51,8 +47,6 @@ public class BEANPettyCashTransaction implements Externalizable {
         m_strUsernameReturn = in.readUTF();
         m_strUsernameReturnReceived = in.readUTF();
         m_strNote = in.readUTF();
-
-        m_bIsReturned = in.readBoolean();
     }
 
     public int getPettyCashID() { return m_pettyCashID; }
@@ -121,10 +115,23 @@ public class BEANPettyCashTransaction implements Externalizable {
         m_strNote = p_strNote;
     }
 
-    public boolean getIsReturned() {
-        return m_bIsReturned;
+    public boolean IsReturned() {
+        boolean isReturned = false;
+
+        if(m_strUsernameReturn.length() > 0 && !IsReceived()) {
+            isReturned = true;
+        }
+
+        return isReturned;
     }
-    public void setIsReturned(boolean p_bIsReturned) {
-        m_bIsReturned = p_bIsReturned;
+
+    public boolean IsReceived() {
+        boolean isReceived = false;
+
+        if(m_strUsernameReturnReceived.length() > 0) {
+            isReceived = true;
+        }
+
+        return isReceived;
     }
 }
