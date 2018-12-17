@@ -143,8 +143,10 @@ public class PettyCash {
         Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
 
         int pettyCashID = p_BEANPettyCashTransaction.getPettyCashID();
-        String sqlDeletePettyCashTransaction = "DELETE FROM PettyCash_tbl WHERE PettyCashID = " + pettyCashID + ";";
-
+        String sqlDeletePettyCashUsages = "DELETE FROM PettyCashUsage_tbl USING PettyCash_tbl WHERE PettyCashUsage_tbl.PettyCashID = "
+                + "PettyCash_tbl.PettyCashID AND PettyCash_tbl.PettyCashID = " + pettyCashID + ";";
+        databaseAdapter.update(conn, sqlDeletePettyCashUsages);
+        String sqlDeletePettyCashTransaction = "DELETE FROM PettyCash_tbl WHERE PettyCashID = " + pettyCashID;
         databaseAdapter.update(conn, sqlDeletePettyCashTransaction);
     }
 
