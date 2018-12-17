@@ -1,6 +1,7 @@
 package com.kita.pettycash.server.services;
 
 import com.kita.lib.rpc.server.DatabaseAdapter;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.sql.*;
 
@@ -25,6 +26,8 @@ public class User {
         }
         rs.close();
 
+        if(isValidUser) System.out.println("User authentication complete");
+        else System.out.println("User authentication failed");
         return isValidUser;
     }
 
@@ -42,6 +45,8 @@ public class User {
         }
         rs.close();
 
+        if (isExistingUser) System.out.println("User exists");
+        else System.out.println("User does not exist");
         return isExistingUser;
     }
 
@@ -51,6 +56,7 @@ public class User {
         Connection conn = databaseAdapter.establishConnection(DB_URL, USER, PASSWORD);
         String getSql = "SELECT username, password FROM user_tbl;";
 
+        System.out.println("Retrieved User data");
         return databaseAdapter.getResultSet(conn, getSql);
     }
 
@@ -68,6 +74,7 @@ public class User {
             stmt.executeUpdate(insertSql);
 
             conn.close();
+            System.out.println("New User created");
 
         } catch(Exception e) {
             System.out.println(e);
@@ -85,5 +92,6 @@ public class User {
         databaseAdapter.update(conn, insertSql);
 
         conn.close();
+        System.out.println("Password changed");
     }
 }
